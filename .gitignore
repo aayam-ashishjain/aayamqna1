@@ -1,0 +1,15 @@
+# Dependencies & build output
+node_modules/
+client/dist/
+client/.angular/
+
+# Secrets & local SQLite files
+server/.env
+*.db
+*.db-shm
+*.db-wal
+
+# OS & editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
